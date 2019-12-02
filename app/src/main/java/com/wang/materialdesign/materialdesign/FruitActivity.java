@@ -1,4 +1,4 @@
-package com.wang.materialdesign;
+package com.wang.materialdesign.materialdesign;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
+import com.wang.materialdesign.R;
 
 public class FruitActivity extends AppCompatActivity {
 

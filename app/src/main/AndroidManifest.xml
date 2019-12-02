@@ -10,12 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".FruitActivity"
+            android:name=".materialdesign.FruitActivity"
             android:theme="@style/FruitActivityTheme">
         </activity>
         <activity
+            android:name=".materialdesign.MaterialDesignActivity">
+        </activity>
+        <activity
             android:name=".MainActivity"
-            android:label="Fruits">
+            android:screenOrientation="portrait"
+            android:label="firstcode">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package com.wang.materialdesign;
+package com.wang.materialdesign.materialdesign;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,6 +13,7 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.wang.materialdesign.R;
 
 import java.util.List;
 
