@@ -14,14 +14,20 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.wang.materialdesign.materialdesign.MaterialDesignActivity;
+import com.wang.materialdesign.recycleview.RecycleViewActivity;
+import com.wang.materialdesign.recycleview.RecycleViewActivity1;
+import com.wang.materialdesign.recycleview.RecycleViewActivity2;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Title[] titles = {new Title("Material Design")};
-    private Class[] classes = new Class[]{MaterialDesignActivity.class};
+    private Title[] titles = {new Title("Material Design"), new Title("recyclerview-线性布局纵向滚动"),
+                              new Title("recyclerview1-线性布局横向滚动"), new Title("recyclerview2-瀑布流布局")};
+    private Class[] classes = new Class[]{MaterialDesignActivity.class, RecycleViewActivity.class,
+                                RecycleViewActivity1.class, RecycleViewActivity2.class};
 
     private List<Title> titleName = new ArrayList<>();
 
@@ -43,10 +49,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initData() {
-        titleName.clear();
-        for (int i = 0; i < titles.length; i++){
-            titleName.add(titles[i]);
-        }
+//        titleName.clear();
+//        for (int i = 0; i < titles.length; i++){
+//            titleName.add(titles[i]);
+//        }
+        titleName.addAll(Arrays.asList(titles));
     }
 
     public class TitleAdapter extends RecyclerView.Adapter<TitleAdapter.ViewHolder> {
