@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".recycleview.RecycleViewActivity"></activity>
-        <activity android:name=".recycleview.RecycleViewActivity1"></activity>
-        <activity android:name=".recycleview.RecycleViewActivity2"></activity>
+        <activity android:name="com.wang.firstcode.recycleview.RecycleViewActivity" />
+        <activity android:name="com.wang.firstcode.recycleview.RecycleViewActivity1" />
+        <activity android:name="com.wang.firstcode.recycleview.RecycleViewActivity2" />
         <activity
-            android:name=".materialdesign.FruitActivity"
-            android:theme="@style/FruitActivityTheme"></activity>
-        <activity android:name=".materialdesign.MaterialDesignActivity"></activity>
+            android:name="com.wang.firstcode.materialdesign.FruitActivity"
+            android:theme="@style/FruitActivityTheme" />
+        <activity android:name="com.wang.firstcode.materialdesign.MaterialDesignActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.wang.firstcode.MainActivity"
             android:label="firstcode"
             android:screenOrientation="portrait">
             <intent-filter>

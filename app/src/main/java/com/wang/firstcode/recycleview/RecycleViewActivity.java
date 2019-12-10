@@ -1,18 +1,18 @@
-package com.wang.materialdesign.recycleview;
-
-import android.os.Bundle;
+package com.wang.firstcode.recycleview;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.os.Bundle;
+
+import com.wang.firstcode.materialdesign.Fruit;
 import com.wang.materialdesign.R;
-import com.wang.materialdesign.materialdesign.Fruit;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class RecycleViewActivity1 extends AppCompatActivity {
+public class RecycleViewActivity extends AppCompatActivity {
 
     private List<Fruit> fruitList = new ArrayList<>();
 
@@ -22,8 +22,7 @@ public class RecycleViewActivity1 extends AppCompatActivity {
         setContentView(R.layout.activity_recycle_view);
         initFruits();
         RecyclerView recyclerview = findViewById(R.id.recycler_view);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL); //横向滚动
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this); //线性布局纵向滚动
         recyclerview.setLayoutManager(layoutManager);
         FruitAdapter adapter = new FruitAdapter(fruitList);
         recyclerview.setAdapter(adapter);

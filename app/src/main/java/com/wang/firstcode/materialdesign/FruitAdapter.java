@@ -1,4 +1,4 @@
-package com.wang.materialdesign.materialdesign;
+package com.wang.firstcode.materialdesign;
 
 import android.content.Context;
 import android.content.Intent;

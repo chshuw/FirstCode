@@ -1,14 +1,13 @@
-package com.wang.materialdesign.recycleview;
+package com.wang.firstcode.recycleview;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import com.wang.materialdesign.R;
-import com.wang.materialdesign.materialdesign.Fruit;
+import com.wang.firstcode.materialdesign.Fruit;
 
 import java.util.ArrayList;
 import java.util.List;

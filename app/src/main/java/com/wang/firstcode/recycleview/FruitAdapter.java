@@ -1,4 +1,4 @@
-package com.wang.materialdesign.recycleview;
+package com.wang.firstcode.recycleview;
 
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -12,8 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.wang.materialdesign.R;
-import com.wang.materialdesign.materialdesign.Fruit;
-import com.wang.materialdesign.materialdesign.FruitActivity;
+import com.wang.firstcode.materialdesign.Fruit;
+import com.wang.firstcode.materialdesign.FruitActivity;
 
 import java.util.List;
 

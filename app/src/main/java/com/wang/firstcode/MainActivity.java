@@ -1,4 +1,4 @@
-package com.wang.materialdesign;
+package com.wang.firstcode;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,10 +13,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.wang.materialdesign.materialdesign.MaterialDesignActivity;
-import com.wang.materialdesign.recycleview.RecycleViewActivity;
-import com.wang.materialdesign.recycleview.RecycleViewActivity1;
-import com.wang.materialdesign.recycleview.RecycleViewActivity2;
+import com.wang.materialdesign.R;
+import com.wang.firstcode.materialdesign.MaterialDesignActivity;
+import com.wang.firstcode.recycleview.RecycleViewActivity;
+import com.wang.firstcode.recycleview.RecycleViewActivity1;
+import com.wang.firstcode.recycleview.RecycleViewActivity2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -25,9 +26,11 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     private Title[] titles = {new Title("Material Design"), new Title("recyclerview-线性布局纵向滚动"),
-                              new Title("recyclerview1-线性布局横向滚动"), new Title("recyclerview2-瀑布流布局")};
+                              new Title("recyclerview1-线性布局横向滚动"), new Title("recyclerview2-瀑布流布局"),
+                              };
     private Class[] classes = new Class[]{MaterialDesignActivity.class, RecycleViewActivity.class,
-                                RecycleViewActivity1.class, RecycleViewActivity2.class};
+                                RecycleViewActivity1.class, RecycleViewActivity2.class,
+                                };
 
     private List<Title> titleName = new ArrayList<>();
 

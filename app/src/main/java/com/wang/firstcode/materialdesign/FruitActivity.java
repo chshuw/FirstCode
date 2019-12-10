@@ -1,4 +1,4 @@
-package com.wang.materialdesign.materialdesign;
+package com.wang.firstcode.materialdesign;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;

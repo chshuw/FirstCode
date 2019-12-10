@@ -1,4 +1,4 @@
-package com.wang.materialdesign;
+package com.wang.firstcode;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.wang.materialdesign.R;
 
 import java.util.List;
 
